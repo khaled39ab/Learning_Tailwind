@@ -555,20 +555,28 @@ video {
   margin: 3rem;
 }
 
-.h-32 {
-  height: 8rem;
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .h-64 {
   height: 16rem;
 }
 
-.w-32 {
-  width: 8rem;
-}
-
 .w-64 {
   width: 16rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .bg-gray-900 {

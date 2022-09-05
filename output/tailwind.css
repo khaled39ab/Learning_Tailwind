@@ -767,13 +767,6 @@ video {
   --tw-ring-offset-width: 2px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .dark\:bg-gray-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-  }
-}
-
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
@@ -805,12 +798,5 @@ video {
 
   .md\:text-left {
     text-align: left;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .md\:dark\:bg-gray-500 {
-      --tw-bg-opacity: 1;
-      background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-    }
   }
 }
